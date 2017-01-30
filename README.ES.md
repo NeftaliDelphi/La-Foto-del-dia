@@ -29,6 +29,16 @@ https://youtu.be/CBqpnR6hwlo
 SCREENSHOTS / IMAGENES
 -------------------------
 Se pueden ver algunas imágenes aquí:
+https://github.com/NeftaliDelphi/La-Foto-del-dia/tree/master/Screenshots
+
+O aquí:
+https://s26.postimg.org/fv1wi9lzd/Screenshot_2017_01_30_10_02_18_287_com.png
+https://s26.postimg.org/oelag0ubt/Screenshot_2017_01_30_10_02_35_787_com.png
+https://s26.postimg.org/4l96nbgy1/Screenshot_2017_01_30_10_02_49_478_com.png
+https://s26.postimg.org/xp1zxaufd/Screenshot_2017_01_30_10_03_09_727_com.png
+https://s26.postimg.org/vlrkpmumh/Screenshot_2017_01_30_10_03_40_135_android.png
+https://s26.postimg.org/eza0gk1op/Screenshot_2017_01_30_10_04_07_925_com.png
+https://s26.postimg.org/u99vnqx6x/splash.png
 
 
 
