@@ -1,5 +1,5 @@
 APLICATION
----------------------
+====================================================
 "La foto del día" is an aplication that can download, modify and share photos published by NASA day to day in your webpage.
 https://api.nasa.gov/index.html
 https://data.nasa.gov/developer
@@ -19,14 +19,29 @@ http://neftali.clubdelphi.com/nasa-la-foto-del-da/
 
 
 
+COMPETITION (#FunWithDelphi)
+====================================================
+The application was created to participate in the competition "Fun with Delphi Contest: NASA API Mashup", organized by Embarcadero and based on NASA API previously commented.
+https://community.embarcadero.com/blogs/entry/fun-with-delphi-contest-nasa-api-mashup
+https://community.embarcadero.com/blogs/entry/nasa-apis-mashup-competition?utm_source=dlvr.it&utm_medium=gplus
+
+You can participate and see the rules of competition here:
+https://community.embarcadero.com/competitions/14-fun-with-delphi-nasa-api-mash-up
+
+
+
+
+
 SAMPLE VIDEO 
--------------------------
+====================================================
 You can watch a small video of the application working in Windows and Android here:
 https://www.youtube.com/user/NeftaliDigit
 https://youtu.be/CBqpnR6hwlo
 
+
+
 SCREENSHOTS / IMAGES
--------------------------
+====================================================
 You can view some images here:
 https://github.com/NeftaliDelphi/La-Foto-del-dia/tree/master/Screenshots
 
@@ -41,20 +56,8 @@ https://s26.postimg.org/u99vnqx6x/splash.png
 
 
 
-
-COMPETITION (#FunWithDelphi)
----------------------
-The application was created to participate in the competition "Fun with Delphi Contest: NASA API Mashup", organized by Embarcadero and based on NASA API previously commented.
-https://community.embarcadero.com/blogs/entry/fun-with-delphi-contest-nasa-api-mashup
-https://community.embarcadero.com/blogs/entry/nasa-apis-mashup-competition?utm_source=dlvr.it&utm_medium=gplus
-
-You can participate and see the rules of competition here:
-https://community.embarcadero.com/competitions/14-fun-with-delphi-nasa-api-mash-up
-
-
-
 DOWNLOAD
----------------------
+====================================================
 Now you can download the compiled application to test it from the GitHub repository.
 https://github.com/NeftaliDelphi/La-Foto-del-dia
 
@@ -63,7 +66,7 @@ Once the competition is complete, all the source code will be available in this 
 
 
 AUTHOR
----------------------
+====================================================
 Germán Estévez -Neftalí-
 Barcelona (SPAIN)
 Embarcadero MVP y Administrator of Clubdelphi.
