@@ -25,6 +25,10 @@ You can watch a small video of the application working in Windows and Android he
 https://www.youtube.com/user/NeftaliDigit
 https://youtu.be/CBqpnR6hwlo
 
+SCREENSHOTS / IMAGES
+-------------------------
+You can view some images here:
+
 
 
 
@@ -48,7 +52,7 @@ Once the competition is complete, all the source code will be available in this 
 
 
 
-AUTOR
+AUTHOR
 ---------------------
 Germán Estévez -Neftalí-
 Barcelona (SPAIN)

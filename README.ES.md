@@ -26,6 +26,11 @@ https://www.youtube.com/user/NeftaliDigit
 https://youtu.be/CBqpnR6hwlo
 
 
+SCREENSHOTS / IMAGENES
+-------------------------
+Se pueden ver algunas imágenes aquí:
+
+
 
 
 COMPETICIÓN (#FunWithDelphi)
