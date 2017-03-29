@@ -1,4 +1,4 @@
-APLICATION
+APPLICATION
 ====================================================
 "La foto del día" is an aplication that can download, modify and share photos published by NASA day to day in your webpage.
 https://api.nasa.gov/index.html
