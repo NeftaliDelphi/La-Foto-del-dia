@@ -1,0 +1,44 @@
+object frFiltro: TfrFiltro
+  Size.Width = 83.000000000000000000
+  Size.Height = 114.000000000000000000
+  Size.PlatformDefault = False
+  object RectImage: TRectangle
+    Align = Client
+    Fill.Color = claBlack
+    Padding.Left = 2.000000000000000000
+    Padding.Top = 2.000000000000000000
+    Padding.Right = 2.000000000000000000
+    Padding.Bottom = 2.000000000000000000
+    Size.Width = 83.000000000000000000
+    Size.Height = 114.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 2.000000000000000000
+    object img: TImage
+      MultiResBitmap = <
+        item
+        end>
+      Align = Client
+      Size.Width = 79.000000000000000000
+      Size.Height = 90.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = imgClick
+    end
+    object pnlName: TPanel
+      Align = Top
+      Position.X = 2.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 79.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object lblTitulo: TLabel
+        Align = Client
+        Size.Width = 79.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        Text = '...'
+      end
+    end
+  end
+end

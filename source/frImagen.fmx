@@ -1,0 +1,453 @@
+object FrameImagen: TFrameImagen
+  Size.Width = 332.000000000000000000
+  Size.Height = 354.000000000000000000
+  Size.PlatformDefault = False
+  object Panel1: TPanel
+    Align = Client
+    Size.Width = 332.000000000000000000
+    Size.Height = 354.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Panel3: TPanel
+      Align = Top
+      Size.Width = 332.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object lblFecha: TLabel
+        Align = Client
+        AutoSize = True
+        Size.Width = 332.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.WordWrap = False
+        Text = 'Fecha'
+      end
+    end
+    object pnlImagen: TRectangle
+      Align = Client
+      Size.Width = 332.000000000000000000
+      Size.Height = 329.000000000000000000
+      Size.PlatformDefault = False
+      object img: TImage
+        MultiResBitmap = <
+          item
+          end>
+        Align = Client
+        Anchors = []
+        Size.Width = 332.000000000000000000
+        Size.Height = 265.000000000000000000
+        Size.PlatformDefault = False
+        OnDblClick = imgDblClick
+        object FloatAnimOpacy: TFloatAnimation
+          Duration = 1.000000000000000000
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 1.000000000000000000
+        end
+        object FloatAnimScaleX: TFloatAnimation
+          Duration = 0.200000002980232200
+          PropertyName = 'Scale.X'
+          StartValue = 0.000000000000000000
+          StopValue = 1.000000000000000000
+        end
+        object FloatAnimScaleY: TFloatAnimation
+          Duration = 0.200000002980232200
+          PropertyName = 'Scale.Y'
+          StartValue = 0.000000000000000000
+          StopValue = 1.000000000000000000
+        end
+        object ContrastEffect1: TContrastEffect
+          Enabled = False
+          Brightness = -0.600000023841857900
+          Contrast = 1.000000000000000000
+        end
+      end
+      object TToolBar
+        Align = Bottom
+        Position.Y = 291.000000000000000000
+        Size.Width = 332.000000000000000000
+        Size.Height = 38.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Button1: TButton
+          Align = Left
+          Enabled = False
+          Position.X = 38.000000000000000000
+          Size.Width = 38.000000000000000000
+          Size.Height = 38.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'refreshtoolbutton'
+          TabOrder = 0
+          Text = 'Button1'
+          Visible = False
+        end
+        object btnInfo: TButton
+          Action = ViewAction1
+          Align = Left
+          Enabled = True
+          Images = ImageList1
+          ImageIndex = 0
+          Opacity = 0.500000000000000000
+          Position.X = 7.000000000000000000
+          Size.Width = 38.000000000000000000
+          Size.Height = 38.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'actiontoolbutton'
+          TabOrder = 1
+          Visible = True
+          OnClick = btnInfoClick
+        end
+        object btnShare: TButton
+          Align = Left
+          Images = ImageList1
+          ImageIndex = 1
+          Opacity = 0.500000000000000000
+          Position.X = 45.000000000000000000
+          Size.Width = 38.000000000000000000
+          Size.Height = 38.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'actiontoolbutton'
+          TabOrder = 7
+          OnClick = btnShareClick
+        end
+        object btnMaximize: TButton
+          Align = Left
+          Images = ImageList1
+          ImageIndex = 2
+          Opacity = 0.500000000000000000
+          Position.X = 83.000000000000000000
+          Size.Width = 38.000000000000000000
+          Size.Height = 38.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'actiontoolbutton'
+          TabOrder = 6
+          OnClick = imgDblClick
+        end
+        object Button2: TButton
+          Align = Left
+          Images = ImageList1
+          ImageIndex = 0
+          Size.Width = 7.000000000000000000
+          Size.Height = 38.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+        end
+        object btnRefresh: TButton
+          Align = Left
+          Images = ImageList1
+          ImageIndex = 3
+          Opacity = 0.500000000000000000
+          Position.X = 121.000000000000000000
+          Size.Width = 38.000000000000000000
+          Size.Height = 38.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'actiontoolbutton'
+          TabOrder = 5
+          OnClick = btnRefreshClick
+        end
+        object btnLoad: TButton
+          Align = Left
+          Images = ImageList1
+          Opacity = 0.500000000000000000
+          Position.X = 197.000000000000000000
+          Size.Width = 38.000000000000000000
+          Size.Height = 38.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'L'
+          OnClick = btnLoadClick
+        end
+        object btnEdit: TButton
+          Align = Left
+          Images = ImageList1
+          ImageIndex = 4
+          Opacity = 0.500000000000000000
+          Position.X = 159.000000000000000000
+          Size.Width = 38.000000000000000000
+          Size.Height = 38.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'actiontoolbutton'
+          TabOrder = 4
+          OnClick = btnEditClick
+        end
+      end
+      object aniDescarga: TAniIndicator
+        Align = Center
+        Size.Width = 100.000000000000000000
+        Size.Height = 100.000000000000000000
+        Size.PlatformDefault = False
+        Style = Circular
+      end
+      object pnlTitulo: TPanel
+        Align = Top
+        Size.Width = 332.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object lblTitulo: TLabel
+          Align = Client
+          StyledSettings = [Family, Size, FontColor]
+          Size.Width = 332.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'T'#237'tulo'
+        end
+      end
+      object mmExpl: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        ReadOnly = True
+        TextSettings.WordWrap = True
+        Position.X = 240.000000000000000000
+        Position.Y = 152.000000000000000000
+        TabOrder = 4
+        OnClick = mmExplClick
+        Viewport.Width = 50.000000000000000000
+        Viewport.Height = 50.000000000000000000
+      end
+      object lblPorcentaje: TLabel
+        Align = Center
+        Size.Width = 64.000000000000000000
+        Size.Height = 61.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        Text = '...'
+      end
+    end
+  end
+  object TimerLoadImage: TTimer
+    Enabled = False
+    OnTimer = TimerLoadImageTimer
+    Left = 128
+    Top = 80
+  end
+  object ActionList1: TActionList
+    Left = 248
+    Top = 40
+    object ShowShareSheetAction1: TShowShareSheetAction
+      Category = 'Media Library'
+    end
+    object ViewAction1: TViewAction
+      Category = 'View'
+      Text = 'img'
+      FmxObject = img
+    end
+    object ViewAction2: TViewAction
+      Category = 'View'
+      Text = 'ViewAction2'
+    end
+  end
+  object ImageList1: TImageList
+    Source = <
+      item
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0337494441545847C597BF4F53411CC0DB475B6B5B6CCB54131D10D0CD12A383
+              0EA232E8E0CEEC3F609C5C1C74F3C71FA0515C1C8824264E868DE0E4E08230E8
+              8231C6A102464A6D85165AFC7CDFFBF659A0BDDE03A29FE472DF7BF7FDF5EEDD
+              DDBB0B872CD9DADA4A51AE532E5186EBF57A7FB158CC485F269329F6F4F47C09
+              87C31F286F296F2865D770BF341A8D21828D13EC3781AD28954A15B1C17640DD
+              04073F719C3C2A140A35CF6D70161717AB540F2871756B07990F6E6E6ECEBB5E
+              0E007CCD5A8F068A67AAD5EA77B5ED88BC1DBA37113394ACC8FAC66D119FE89C
+              D630ED4161707D7D7D496D8CA07B5BCD7C78764BBBDB22BE2586AA6F878EC30C
+              D59CEADAE0AE8056F0D1A77D1D91CF41E5CF09476B9974F7584AE6213A008831
+              4CA277B5E9C18381A0B31D9BC09FA089C63AA166A190AC59AFCB9ED64948DD27
+              B26912EE84984F257618C3DE4AA55248A55249379B7F0431CBC964F2A82430C6
+              B639A9CFBB522E972B243BC24B9CA40CF328CFC4CAC762B19CA7610FF66332FC
+              CF64486C41FF85DAFBF01243DA1D087C3D71A803CD7C466B57027055EB40103B
+              EF307CD63F8C8D8D8DAFF2B7D3A60F8EAEA918084660C0595D5D3DA2EDAEB086
+              5F9140439B2E0CFFA1B5B5B5116D0602BB5E7F23B281E0AF556CE502B339A572
+              609C743A5D52D908FBF84F1278AF4D1F867F54C5C0C4E3F1B21389443E6BDB08
+              CB4C4E3A756DFA90C065150343EC0507A7F3DA3682DE3B157D089E5A5E5E3EA7
+              CDC0E0734E1298D6763766B56EE56C2E978BAAEC52ABD59654EC0AB16764124E
+              C9EEE63D32F24D6B1F59C72ABA48F068346AF5492426094C39F02B914874DD8A
+              51FEA1A20F09F4A918623F5920F845FC7DD447468839814FEFE4CC5A1EB4F81D
+              475CE516B03BC66632417D87FE34C5A1FDD8D53620B1B0D9BE0162F850FBDB82
+              C171556D0B2A317CBCF4B4CDA0775FCDFE4200E3918CFE1BAABA0BBA73389DF1
+              34CDEC3C926D83201D0FA5FC073E512554D5079B514EBC054FCB8CF150DA0485
+              8EC772DE729AFE538811EAF3B427F99E0DAFD78CD5B1BC8964C950FD9F8B4913
+              ECF67D35135B7CC8E40E76356B85CCE572FA7C8F97D32175D391BD5CCFAF50E4
+              1CD8BFB2B2E25E4EB2D96C911F4BF37A3E43B1BC9E87427F006654775690492A
+              F00000000049454E44AE426082}
+            FileName = 'D:\PROYECTOS\DELPHI\LaFotoDelDia\Images\icon-info-sign-white.png'
+          end>
+        Name = 'icon-info-sign-white'
+      end
+      item
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              024C494441545847B5964D4B1B5114863333862028B8682175258AA00B2976D1
+              5FD04D29746137C58D4B7F80E0C6BF226E440537E2D2ADA55F14DA5244AD5D4B
+              888246634832F9F2B9332758CD4CEE7CDC3C30DC7327F7BCE7CC9D3B27273328
+              3A9DCE50BBDD5E6E369B9F2A95CA4DB95CBEC3FEC1BD15AE6159361808F09C60
+              5F48229046A371C23029CBCD82B043F0CF5EA43E90C419C388B89983A75FF243
+              E861ED9AB899A3D56A1D88BE1676E1D8123F63D46AB5CB5C2EF74CA65A6C1953
+              C376BE55EF3E4EF0D4B08B1681DF13F8BBBFA9F150AF40A4E281AF4DE00F04FE
+              ED4B2523F621C4C7C16991C047BE442F8542A15DAFD78B320D85A7FFC7F0F019
+              32E957B946B99670FAEB7907A002F305ECB16E9E4B15A2AFF2530FE83C2E443A
+              07C41B62F6C06FC46DEDA03127721EFCD47DA06F3CD02D54B07F716F95EBA114
+              B33052E57A8A4A8AC09B983322950CB2895CB914C562B14EE075FCA644221D88
+              45AE5CD56AF58A61425C8D6073205E89ADA5542A8D914041A646B0C1155B4B3E
+              9F375EBA6DC7718EC4D6429DBFB62CEB854CCD10F71072FA5DCECD067ED32291
+              0E34D56718DABD8441224D12D9229159914A0E22A90A11C32E1A2F45CE837BF1
+              7AC2FF1C822A57B7149FAAA04190882AC5FBAC7BCD35989E1027F52FF811F13F
+              9E52081CD60B31432189E43D218EAA0F5820919F9E5A42D048D713A2A1127947
+              22A1E7A71FEC42B2862408F4DE90C8A12F1D1DE395CD75DDF36C363B2E532DC6
+              9AD22E712A2B3B76623C014AF5B6985A48764B4C73F05A2355560EE0E39ED024
+              5288A2F784838000117AC24CE61EC9860DB821A46C040000000049454E44AE42
+              6082}
+            FileName = 'D:\PROYECTOS\DELPHI\LaFotoDelDia\Images\icon-share-alt-white.png'
+          end>
+        Name = 'icon-share-alt-white'
+      end
+      item
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01C2494441545847ED96CB4AC34018859B944A8B2EDC885D085E3616F4054437
+              FA322E5CF904C53750B0CFE05670A9E84BB85441102A12106342D3A4AD9E7F72
+              B4AD717A911975D10F42E6F2CF39FF642EAD93B34C922477AD566B96D54F0A85
+              C28DEBBAFBACDAA3DD6ED7DE3420B95B86D9033E0E92384E2DB330CC2E9D4E67
+              DDF3BC889E7D30C41E305F8BA2E8897E1918660799F957F37ABD9EB0A860A879
+              BE330FC3D0C76B0B7BE2286DB198008EDE353D14307F41529BD287AA6CCC437C
+              8D5805DBC0F7FD30B5EE37FF00CD0EDAA659350FC4F764E7C771FC80F2069B7F
+              17CC724A66CAEAFF4465874FB4E838CE01AEC61D6C8E19D5F343F2F97C807BFE
+              1233AFE2AEBF67B31E982F379BCD470C300A355768A307333E49879847B469A3
+              478E08E38D23DAB4D1E24820CB0A2CC915F6C32E1E8F4D230199329E1AD67D9B
+              4D0AE80C3E0592402F4860815D6383E14BA94A177669C97C81A1190F615C3D97
+              EF3F6392C0248149029904708CCB2C8E0D2EB1791647472E8E5EF0037206A139
+              768F0C8696656CAAD285DD7AF84FD50A4110BCD2468B5B2C162F58364EA9543A
+              67510F12AD341A8DE734677350B3429BC160CD57B17EA726964334444B34293F
+              805CEE1DB8F2C699C81A99A80000000049454E44AE426082}
+            FileName = 'D:\PROYECTOS\DELPHI\LaFotoDelDia\Images\icon-maximize-white.png'
+          end>
+        Name = 'icon-maximize-white'
+      end
+      item
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              02ED494441545847ED973B6F13411446BD7E0482238245450ADEA92204A2A006
+              241A84284301120D35BF802601A260450A028484785434888622D05040410748
+              A088320409111314F0CAB2F1DBE6DC991B3BEB64BD6BA724471ACDEEBDDF7767
+              7677BC9E75222169341A8374679BCDE6C968347AA45AAD1EAAD7EB43928BC562
+              F94422B18066DE719CB7845EA1294ACE0FBC33E8CFEBA93F88F621BECBC02E2D
+              2CAE7AF66A190FE4D256D66C6A683D0CBC0DE1E4CACA4A49B53D235E6A4C482D
+              2D2B83DFD2B441C35EE4AA6BB5DA7BD56C1AA92535399CB69136EBD600C2319E
+              EFEB8181813D1A6A417C89E7FD8CE7FC86F685D06F9B89ECA6D618ED345738CE
+              7A18D1788B42A1904F269366CDF84281FD954AE5BBCC6C2DC47E30B1CB1CC655
+              EA8B68445B2E97978C3900B5D967CEADFAA8F1165CD173723B55161AF18857CB
+              F8A272B338A634D682D83DBAD03FD54EF0DFB095FC3142FA83CBCBCB651BB260
+              7E491733823EC07FDD56EACEAAF8819E1B741D0C9B641F506FD2560AC618785E
+              27303DC9E5720509727ED124FA803A13A672088AC5E21FB559880D33F815FAC0
+              D5EE07DE0F523C884C265363B237D5B6C5165BFCCFF0E2B9262F057D3F74857F
+              CB776AEB19EC51C6BA44EFDD13C8EBD0540FC7B4DA7A86C12F680DD92FDEE7FC
+              A8496830104C6963E803064BF207F74D4B19A8F7D824F5BC2B9B191CBB83FFA9
+              AD64E1915798D4E8AAA02B98678CB00FB047F1CFDA4A6D3C17A4315F74F6DD37
+              931B201EBC2F4C9135B0903FD3ED5059F0040476C38BDCB2710EA36AF34534A2
+              ED7CE642A954FA45EEB04A2D9AF390CD668B7AE881892C7055531439431B2114
+              9726C712931C9AAF46DC01BBE49F688EEBB06D34DF8222B30847B955F31ADA34
+              528B9ADE2B5F45350606BF4D6776C11806394FCB8AB5D9DE11AFD4E070BB196C
+              23ACD40C7E876EA32FA551728F5CD7FD6B95C1C8DE12CF43F16A195F1C59607C
+              4ACFD1AEF2B9D5FE50E880BA43B473B453B463DCD603AC955D924BA5526E3C1E
+              5FC4FF493FDBE6687963EC4A24F20F5B8D75BA3FDED9BB0000000049454E44AE
+              426082}
+            FileName = 'D:\PROYECTOS\DELPHI\LaFotoDelDia\Images\icon-refresh-white.png'
+          end>
+        Name = 'icon-refresh-white'
+      end
+      item
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+            Scale = 3.000000000000000000
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0206494441546843ED984D4AC34018863B89DA4257EEC5856BD113B870A10BBD
+              84E8C6BFA58227D013886B1145DD79072FA0C59DB874A708B6A14893F87E932F
+              25A68DF969CD4C641E1866269D7CF3BC431B4A6A06C33FC3F7FD39CFF316795A
+              2D20BEDD6EB75D84F05DD7BD4067F347FA03F95D128F8210D7E8F40F01F9BD40
+              7910ED43407E3F504D06216ED04DF02DFA00F99540311D2D4340C882D8B934CC
+              C62D9AFA1038F91D889FD01842D50A41F278547A64523404D65EC9626513950F
+              291A02B5E665D1B218261F923704EA7CA1DE8C2C5C06BFC987640DC1753664E1
+              32C8221F921682EA804D59B80CF2C8872485A8847C483C04CB6FC9C265308A7C
+              483404EA2DCBC265300EF9108438E6B28958DC8F0592771CE7B4D96C0ABE5498
+              4EA7E30B219E79FAF78CF3E4F93B5F8D1F6C1C239F0723CF18F93C1879C6C8E7
+              C1C8332AE4D72A2B4F60DF29FC23BC0B148A53BA3CF69CC686873C1E29849293
+              C7864BB4F9A82194C813D8B4FFAABB680865F20444CFD8439237845279A2D7EB
+              DDB34B9FAC2194CBC341A07D489B18692194CB13F0980D74869314420B790212
+              EBEC94483C8436F204A48EA4650AD11018AFCA9B7500277A1928A603F103BE4D
+              1903EF6FF0047AB06D7B81A77DBADDEE7BA3D16841BA258478C4A516DA936559
+              9F7281227E04C0A14E3A8EF356AFD75F48128D2465C3F815CD970B7505012C0A
+              C153C3DF53AB7D03105C788ABF567ABC0000000049454E44AE426082}
+            FileName = 
+              'D:\PROYECTOS\DELPHI\LaFotoDelDia\Images\pen-edit-write-glyph-whi' +
+              'te.png'
+          end>
+        Name = 'pen-edit-write-glyph-white'
+      end>
+    Destination = <
+      item
+        Layers = <
+          item
+            Name = 'icon-info-sign-white'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'icon-share-alt-white'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'icon-maximize-white'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'icon-refresh-white'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'pen-edit-write-glyph-white'
+          end>
+      end>
+    Left = 40
+    Top = 160
+  end
+end
