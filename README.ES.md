@@ -64,7 +64,7 @@ DESCARGA
 Por hora se puede descargar la aplicación compilada para probarla desde el repositorio de GitHub.
 https://github.com/NeftaliDelphi/La-Foto-del-dia
 
-Una vez finalizada la competición el código fuente completo estará disponible en este repositorio.
+Ahora que la competición ha finalizado, se puede descaregar el código fuente desde este repositorio.
 
 
 

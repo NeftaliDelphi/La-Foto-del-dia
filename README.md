@@ -61,7 +61,7 @@ DOWNLOAD
 Now you can download the compiled application to test it from the GitHub repository.
 https://github.com/NeftaliDelphi/La-Foto-del-dia
 
-Once the competition is complete, all the source code will be available in this repository.
+Now the competition has ended, and all the sources are available in this repository.
 
 
 
