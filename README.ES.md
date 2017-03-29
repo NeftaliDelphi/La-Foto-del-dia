@@ -70,8 +70,8 @@ Ahora que la competición ha finalizado, se puede descaregar el código fuente des
 
 AUTOR
 ====================================================
-Germán Estévez -Neftalí-
-Barcelona (SPAIN)
-Embarcadero MVP y Administrador del Clubdelphi.
-http://neftali.clubdelphi.com
-german_ral@hotmail.com
+Germán Estévez -Neftalí-  
+Barcelona (SPAIN)  
+Embarcadero MVP y Administrador del Clubdelphi.  
+http://neftali.clubdelphi.com  
+german_ral@hotmail.com  
