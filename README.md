@@ -67,8 +67,12 @@ Now the competition has ended, and all the sources are available in this reposit
 
 AUTHOR
 ====================================================
-Germán Estévez -Neftalí-
-Barcelona (SPAIN)
-Embarcadero MVP y Administrator of Clubdelphi.
-http://neftali.clubdelphi.com
+Germán Estévez -Neftalí- 
+
+Barcelona (SPAIN)  
+
+Embarcadero MVP y Administrator of Clubdelphi.  
+
+http://neftali.clubdelphi.com  
+
 german_ral@hotmail.com
