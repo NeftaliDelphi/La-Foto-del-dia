@@ -9,7 +9,8 @@ interface
 
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts, frImagen, FMX.Gestures, FMX.Controls.Presentation, FMX.StdCtrls, IPPeerClient, FMX.ListView.Types, FMX.ListView.Appearances, FMX.ListView.Adapters.Base, Data.DB, FMX.ListView, Datasnap.DBClient, REST.Response.Adapter, REST.Client, Data.Bind.Components, Data.Bind.ObjectScope, System.Rtti, System.Bindings.Outputs, Fmx.Bind.Editors, Data.Bind.EngExt, Fmx.Bind.DBEngExt,
-  Data.Bind.DBScope, FMX.ScrollBox, FMX.Memo, FMX.Objects, FMX.Ani, FrameFiltro, System.Generics.Collections, FMX.TabControl, FMX.Filter.Effects, FMX.Effects, System.ImageList, FMX.ImgList;
+  Data.Bind.DBScope, FMX.ScrollBox, FMX.Memo, FMX.Objects, FMX.Ani, FrameFiltro, System.Generics.Collections, FMX.TabControl, FMX.Filter.Effects, FMX.Effects, System.ImageList, FMX.ImgList,
+  REST.Types;
 
 type
   TFormMain = class(TForm)
@@ -149,7 +150,7 @@ type
     function GetNewDate(): TDate;
     // Ocultar la informacion visible // Hide information
     procedure HideInfoFrames();
-    // respuesta al dia´logo de cerrar // Response to the close dialog
+    // respuesta al diálogo de cerrar // Response to the close dialog
     procedure OnCloseDialog(Sender: TObject; const AResult: TModalResult);
   public
     // Lista de Frames creados // List of created Frames
@@ -165,7 +166,7 @@ type
   end;
 
 var
-  FormMain: TFormMain;
+  FormMain: TFormMain;     // Formulario principal
 
 
 //==============================================================================
